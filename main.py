@@ -141,9 +141,6 @@ def specific_filter(rawMessages, UIDs):
         print()
 
 
-name = "tejasbiker23@gmail.com"
-password = "pbuwtyryrqqrcazg"
-
 imapObj = get_into_gmail(name, password)
 rawMessages, UIDs = filter_gmail_messages(imapObj)
 specific_filter(rawMessages, UIDs)
